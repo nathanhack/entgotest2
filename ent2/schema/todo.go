@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"entgo.io/ent"
+	"entgo.io/ent/dialect/entsql"
 	"entgo.io/ent/schema/field"
 )
 
@@ -21,6 +22,9 @@ func (Todo) Fields() []ent.Field {
 		field.Bool("clean").Default(false),
 		field.Time("update_time").
 			Default(time.Now).
-			UpdateDefault(time.Now),
+			UpdateDefault(time.Now).
+			Annotations(
+				entsql.Annotation{Default: "CURRENT_TIMESTAMP"},
+			),
 	}
 }
