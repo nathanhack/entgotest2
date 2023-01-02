@@ -15,7 +15,7 @@ require (
 )
 
 require (
-	ariga.io/atlas v0.7.3-0.20221011160332-3ca609863edd // indirect
+	ariga.io/atlas v0.8.3 // indirect
 	ariga.io/ogent v0.0.0-20221214120037-8890ea9048dc // indirect
 	entgo.io/contrib v0.3.4 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
@@ -29,13 +29,13 @@ require (
 	github.com/go-openapi/inflect v0.19.0 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/uuid v1.3.0 // indirect
-	github.com/hashicorp/hcl/v2 v2.13.0 // indirect
+	github.com/hashicorp/hcl/v2 v2.15.0 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
 	github.com/segmentio/asm v1.2.0 // indirect
 	github.com/sergi/go-diff v1.1.0 // indirect
-	github.com/zclconf/go-cty v1.10.0 // indirect
+	github.com/zclconf/go-cty v1.12.1 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/exp v0.0.0-20221205204356-47842c84f3db // indirect
